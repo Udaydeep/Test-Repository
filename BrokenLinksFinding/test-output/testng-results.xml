@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BrokenLinks Tests" duration-ms="68594" started-at="2015-05-08T01:52:32Z" finished-at="2015-05-08T01:53:41Z">
+    <groups>
+    </groups>
+    <test name="Facebook tests" duration-ms="68594" started-at="2015-05-08T01:52:32Z" finished-at="2015-05-08T01:53:41Z">
+      <class name="com.practice.brokenlinks.testMethod">
+        <test-method status="PASS" signature="instantiateWebBrowser(java.lang.String)[pri:0, instance:com.practice.brokenlinks.testMethod@256216b3]" name="instantiateWebBrowser" is-config="true" duration-ms="27324" started-at="2015-05-07T18:52:32Z" finished-at="2015-05-07T18:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateWebBrowser -->
+        <test-method status="PASS" signature="testForBrokenLinks()[pri:0, instance:com.practice.brokenlinks.testMethod@256216b3]" name="testForBrokenLinks" duration-ms="41227" started-at="2015-05-07T18:52:59Z" finished-at="2015-05-07T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForBrokenLinks -->
+      </class> <!-- com.practice.brokenlinks.testMethod -->
+    </test> <!-- Facebook tests -->
+  </suite> <!-- BrokenLinks Tests -->
+</testng-results>
