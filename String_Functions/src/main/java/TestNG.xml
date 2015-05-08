@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="practice tests">
+	<test name="String Tests">
+		<parameter name="inputString" value="uday" />
+		<parameter name="StringLength" value="4" />
+		<classes>
+			<class name="com.TestMethods.StringMethods" />
+		</classes>
+	</test>
+</suite>

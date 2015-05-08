@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [practice tests]">
+  <parameter name="StringLength" value="4"/>
+  <parameter name="inputString" value="uday"/>
+  <test name="String Tests(failed)">
+    <parameter name="StringLength" value="4"/>
+    <parameter name="inputString" value="uday"/>
+    <classes>
+      <class name="com.TestMethods.StringMethods">
+        <methods>
+          <include name="subString" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestMethods.StringMethods -->
+    </classes>
+  </test> <!-- String Tests(failed) -->
+</suite> <!-- Failed suite [practice tests] -->
